@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navbar & nav</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+   <div class="display-3 text-center my-5">Navbar & navs</div>
+   <nav class="navbar navbar-light navbar-expand-md">
+       <div class="container">
+       <a class="navbar-brand" href="">Navbar</a>
+       <ul class="navbar-nav">
+           <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="">About</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Contract</a></li>
+       </ul>
+   </div>
+   </nav>
+   <br><br>
+   
+   <!--navbar with responsive toggle------>
+  
+   <nav class="navbar navbar-light bg-light navbar-expand-md">
+      
+       <div class="container">
+       <a class="navbar-brand" href="">Navbar</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"><span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse"  id="navbar-nav">
+       <ul class="navbar-nav ml-auto">
+           <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="">About</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Contract</a></li>
+       </ul>
+       </div>
+   </div>
+   </nav>
+   <br><br>
+   
+   <!-----navbar with form---->
+   
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+      
+       <div class="container">
+       <a class="navbar-brand" href="">Navbar</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"><span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse"  id="navbar-nav">
+       <ul class="navbar-nav mx-auto">
+           <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+           <li class="nav-item"><a class="nav-link" href="">About</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Contract</a></li>
+       </ul>
+       
+       <form class="form-inline ml-auto">
+           <input class="form-control" type="text" placeholder="Search">
+           <button class="btn btn-primary">Search</button>
+       </form>
+       </div>
+   </div>
+   </nav>
+   <br><br>
+   
+   <!----navbar with dropdown-->
+   
+   <nav class="navbar navbar-light bg-dark navbar-expand-md navbar-dark">
+       <div class="container">
+       <a class="navbar-brand" href="">Navbar</a>
+       <ul class="navbar-nav">
+           <li class="nav-item active"><a class="nav-link" href="">Home</a></li>
+           <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">About</a>
+            <div class="dropdown-menu bg-primary">
+                <a class="dropdown-item" href="">Link1</a>
+                <a class="dropdown-item" href="">Link2</a>
+                <a class="dropdown-item" href="">Link3</a>
+            </div>
+           </li>
+           <li class="nav-item"><a class="nav-link" href="">Service</a></li>
+           <li class="nav-item"><a class="nav-link" href="">Contract</a></li>
+       </ul>
+   </div>
+   </nav>
+   <br><br>
+   
+   
+   <!----------navs------>
+   
+   <ul class="nav nav-pills">
+      
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link3</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   
+   <br><br>
+   <!----------horizontal align------>
+   
+   <ul class="nav nav-pills justify-content-center">
+      
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link3</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   <br><br>
+     <ul class="nav nav-pills justify-content-end">
+      
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link3</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   
+   <br><br>
+    <!----------vertically align------>
+   
+   <ul class="nav nav-pills flex-column">
+      
+      <!----------flex-column use kore vertically show korar jonno------->
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link3</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   <br><br>
+   
+    <!----------fill and justify------>
+   
+   <ul class="nav nav-pills nav-fill">
+      
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link3</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   <br><br>
+    <!----------with dropdowns------>
+   
+   <ul class="nav nav-pills nav-fill">
+     
+     <!-----------nav-fill use pottek link boro korar jonno----->
+      
+      <!---------nav-pills kaj kore active button ar jonno--------->
+      
+      
+       <li class="nav-item"><a class="nav-link active" href="">link1</a></li>
+       <li class="nav-item"><a class="nav-link" href="">link2</a></li>
+       <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">link3</a>
+       <div class="dropdown-menu bg">
+           <a class="dropdown-item" href="">Rana</a>
+           <div class="dropdown-divider"></div>
+           <a class="dropdown-item" href="">Rana</a>
+       </div>
+       </li>
+       <li class="nav-item"><a class="nav-link" href="">link4</a></li>
+   </ul>
+   <br><br>
+   <div style="margin-bottom: 100px;"></div>
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

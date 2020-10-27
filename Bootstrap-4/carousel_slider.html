@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>carousel slider</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+     @media (min-width: 968px){
+            .img-fluid{
+               height: 400px;
+               width: 100%;
+            }
+    }
+    </style>
+<body>
+   <div class="display-3 text-center my-5">Carousel Slider</div>
+   <div class="container">
+     
+      <!-----------slider------->
+      
+       <div id="slider1" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li  data-target="#slider1" data-slide-to="0"></li>
+              <li data-target="#slider1" data-slide-to="1">1</li>
+              <li data-target="#slider1" data-slide-to="2">2</li>
+          </ol>
+           <div class="carousel-inner"  role="listbox">
+               <div class="carousel-item active">
+                   <img class="img-fluid d-block" src="assets/bandorbon-1.jpg" alt="First image">
+                   <div class="carousel-caption">
+                       <h3>Nilachol</h3>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+               </div> 
+               <div class="carousel-item">
+                   <img class="img-fluid d-block" src="assets/bandorbon-2.jpg" alt="Second image">
+                   <div class="carousel-caption">
+                       <h3>Gold-Temple</h3>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+               </div>
+               <div class="carousel-item ">
+                   <img class="img-fluid d-block" src="assets/bandorbon-3.jpg" alt="Thrid image">
+                   <div class="carousel-caption">
+                      <h3>Mountain</h3>
+                      <p>Lorem ipsum dolor sit amet.</p>   
+                   </div>
+               </div>
+           </div>
+       </div>
+     
+     <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+         <span class="carousel-control-prev-icon" style="margin-left: 70px; margin-top: 70px"></span>
+     </a>
+     
+      <a href="#slider1" class="carousel-control-next" data-slide="next">
+         <span class="carousel-control-next-icon" style="margin-right: 70px; margin-top: 70px;"></span>
+     </a>
+     
+     </div>
+     
+     
+     
+     
+   
+   <div style="margin-bottom: 100px;"></div>
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    $('.carousel').carousel({
+        interval : 3000,
+        
+        <!-----------pause use kore mouse hover korle pic change hobe na-->
+        
+        pause : 'hover',
+        
+        
+       <!--------wrap use kore last ar ta asar por ar change hobe na-------->
+        
+        wrap : true,
+       keyboard:true
+        
+    })
+    </script>
+    
+</body>
+</html>

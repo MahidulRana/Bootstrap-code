@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uto margin, Wrap & ordering</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .row-h1{
+            background: green;
+            color: white;
+            height: 150px;
+        }
+        .item-1{
+            border: 1px solid black;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+   <div class="display-3 text-center my-5">auto margin, Wrap & ordering</div>
+   <div class="container">
+     
+      <div class="row-h1 d-flex">
+          <div class="item-1 mr-auto">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+      </div>
+  
+   <br><br>
+   <div class="row-h1 d-flex">
+          <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1 ml-auto">Flex item</div>
+      </div>
+      <br><br>
+      <div class="row-h1 d-flex flex-column">
+          <div class="item-1 mb-auto">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+      </div>
+  
+   <br><br>
+     <div class="row-h1 d-flex flex-column">
+          <div class="item-1">Flex item</div>
+           <div class="item-1 mt-auto">Flex item</div>
+            <div class="item-1">Flex item</div>
+      </div>
+  
+   <br><br>
+       <div class="row-h1 d-flex flex-nowrap">
+          <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+             <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+             <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+      </div>
+  
+   <br><br>
+      <div class="row-h1 d-flex flex-wrap">
+          <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+                <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+             <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+             <div class="item-1">Flex item</div>
+           <div class="item-1">Flex item</div>
+            <div class="item-1">Flex item</div>
+      </div>
+  
+   <br><br>
+      <div class="row-h1 d-flex flex-column">
+          <div class="item-1 order-3">Flex item1</div>
+           <div class="item-1 order-2">Flex item2</div>
+            <div class="item-1">Flex item3</div>
+      </div>
+    
+   <br><br>
+       </div>
+   
+   
+   <div style="margin-bottom: 100px;"></div>
+   
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
